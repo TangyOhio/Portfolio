@@ -11,7 +11,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div className='nav'>
+      <div className='navs'>
         <ul>
           <li><NavLink to='/' >Home</NavLink></li>
           <li><NavLink to='/about' >About</NavLink></li>
