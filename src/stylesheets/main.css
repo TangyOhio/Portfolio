@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Poppins:500");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
@@ -44,23 +44,46 @@ table {
 
 body {
   font-family: "Poppins", Verdana, sans-serif;
-  color: #ffffff; }
+  color: #ffffff;
+  font-weight: 400; }
 
 h1 {
-  font-family: "Poppins", Verdana, sans-serif; }
+  font-family: "Poppins", Verdana, sans-serif;
+  font-weight: 700; }
 
 .navs {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 20%;
-  background-color: #454c5b; }
-  .navs li {
-    padding: 1em; }
+  background-color: #333c46;
+  padding-bottom: 3em; }
+  .navs ul {
+    width: 100%; }
   .navs a {
-    text-decoration: none; }
+    text-decoration: none;
+    display: block;
+    padding: 2em; }
     .navs a:visited {
       color: #ffffff; }
+
+.active {
+  background-color: #454c5b; }
+
+.about-text, .about-header, .about-description {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  flex-direction: column; }
+
+.about-header {
+  flex: 40%;
+  justify-content: center;
+  font-size: 2em; }
+
+.about-description {
+  flex: 60%;
+  width: 65%; }
 
 .home-text, .home-header, .home-description {
   display: flex;
@@ -71,7 +94,8 @@ h1 {
 
 .home-header {
   flex: 40%;
-  justify-content: flex-end; }
+  justify-content: center;
+  font-size: 2em; }
 
 .home-description {
   flex: 60%; }
@@ -81,7 +105,7 @@ h1 {
   height: 100vh; }
 
 .pages-container {
-  background-color: #333c46;
+  background-color: #454c5b;
   flex: 80%; }
 
 /*# sourceMappingURL=main.css.map */

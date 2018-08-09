@@ -1,0 +1,20 @@
+.about-text {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-header {
+  @extend .about-text;
+  flex: 40%;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.about-description {
+  @extend .about-text;
+  flex: 60%;
+  width: 65%;
+}

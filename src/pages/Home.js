@@ -3,12 +3,12 @@ import React from 'react'
 const Home = () => {
   return (
     <div className='home-text'>
-      <h3 className='home-header'>Hello</h3>
-      <p className='home-description'>
-        My name is Jace McGough.
+      <h1 className='home-header'>Hello</h1>
+      <div className='home-description'>
+        <p>My name is Jace McGough.</p>
         <br />
-        I think Javascript is cool.
-      </p>
+        <p>I think Javascript is cool.</p>
+      </div>
     </div>
   )
 }
