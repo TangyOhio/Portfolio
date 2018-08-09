@@ -1,7 +1,19 @@
 .navs {
-  background-color: #535a75;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 30%;
+  flex: 20%;
+  background-color: $nav-color;
+
+  li {
+    padding: 1em;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: $font-color;
+    }
+  }
 }

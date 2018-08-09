@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Poppins:500");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
@@ -41,23 +42,46 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  font-family: "Poppins", Verdana, sans-serif;
+  color: #ffffff; }
+
+h1 {
+  font-family: "Poppins", Verdana, sans-serif; }
+
 .navs {
-  background-color: #535a75;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 30%; }
+  flex: 20%;
+  background-color: #454c5b; }
+  .navs li {
+    padding: 1em; }
+  .navs a {
+    text-decoration: none; }
+    .navs a:visited {
+      color: #ffffff; }
 
-.home-text {
+.home-text, .home-header, .home-description {
   display: flex;
-  justify-content: center; }
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  flex-direction: column; }
+
+.home-header {
+  flex: 40%;
+  justify-content: flex-end; }
+
+.home-description {
+  flex: 60%; }
 
 .app-container {
   display: flex;
   height: 100vh; }
 
 .pages-container {
-  background-color: #333e56;
-  flex: 70%; }
+  background-color: #333c46;
+  flex: 80%; }
 
 /*# sourceMappingURL=main.css.map */

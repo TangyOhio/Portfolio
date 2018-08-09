@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+
+$font-stack: 'Poppins', Verdana, sans-serif;
+
+body {
+  font-family: $font-stack;
+  color: $font-color;
+}
+
+h1 {
+  font-family: $font-stack;
+}
