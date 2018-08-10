@@ -1,0 +1,59 @@
+@function randPos() {
+  $value: "#{random(1)}px #{random(2000)}px";
+
+  @return unquote($value);
+}
+
+.star-bg{
+  background-color: $page-color;
+  z-index: 1;
+  
+  #stars1 {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: randPos();
+    left: randPos();
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 1px;
+    animation: fade 10s linear infinite;
+    opacity: 0;
+  }
+  
+  #stars2 {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    top: randPos();
+    left: randPos();
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 2px;
+    animation: fade 6s linear infinite;
+    opacity: 0;
+  }
+  
+  #stars3 {
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    top: randPos();
+    left: randPos();
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 3px;
+    animation: fade 2s linear infinite;
+    opacity: 0;
+  }
+  
+  @keyframes fade {
+    0%,
+    100% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+  }
+}

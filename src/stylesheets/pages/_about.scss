@@ -4,16 +4,17 @@
   width: 100%;
   align-items: center;
   flex-direction: column;
-}
-
-.about-header {
-  @extend .about-text;
-  flex: 40%;
-  justify-content: center;
-}
-
-.about-description {
-  @extend .about-text;
-  flex: 60%;
-  width: 65%;
+  
+  .about-header {
+    @extend .about-text;
+    flex: 40%;
+    justify-content: center;
+  }
+  
+  .about-description {
+    @extend .about-text;
+    flex: 60%;
+    width: 62%;
+    text-align: left;
+  }
 }
