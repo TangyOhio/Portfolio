@@ -7,17 +7,18 @@
   
   .project-header {
     @extend .project-container;
-    flex: 10%;
+    flex: 5%;
     justify-content: flex-end;
     padding-bottom: 1em;
   }
   
   .project-cards {
     @extend .project-container;
-    flex: 60%;
+    width: 90%;
+    flex: 80%;
     flex-flow: row wrap;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 

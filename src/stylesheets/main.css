@@ -45,7 +45,8 @@ table {
 body {
   font-family: "Poppins", Verdana, sans-serif;
   color: #ffffff;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 20px; }
 
 h1 {
   font-family: "Poppins", Verdana, sans-serif;
@@ -63,8 +64,8 @@ h2 {
     width: 1px;
     height: 1px;
     position: absolute;
-    top: 1px 1054px;
-    left: 1px 1099px;
+    top: 1px 1658px;
+    left: 1px 1235px;
     border-radius: 50%;
     background: transparent;
     box-shadow: 1px;
@@ -74,8 +75,8 @@ h2 {
     width: 2px;
     height: 2px;
     position: absolute;
-    top: 1px 1742px;
-    left: 1px 1349px;
+    top: 1px 125px;
+    left: 1px 306px;
     border-radius: 50%;
     background: transparent;
     box-shadow: 2px;
@@ -85,8 +86,8 @@ h2 {
     width: 3px;
     height: 3px;
     position: absolute;
-    top: 1px 904px;
-    left: 1px 1225px;
+    top: 1px 1000px;
+    left: 1px 363px;
     border-radius: 50%;
     background: transparent;
     box-shadow: 3px;
@@ -159,14 +160,17 @@ a {
         opacity: 0.9; }
       a .card .images-container .logo-image {
         position: absolute; }
-      a .card .images-container .react {
+      a .card .images-container .logo1 {
         top: 5px;
         right: 4px; }
-      a .card .images-container .rails {
+      a .card .images-container .logo2 {
         top: 5px;
         right: 26px; }
+      a .card .images-container .logo3 {
+        top: 5px;
+        right: 48px; }
     a .card .container {
-      padding: 2px 10px;
+      padding: 0 10px;
       font-size: 12px; }
       a .card .container h2 {
         font-size: 15px;
@@ -185,7 +189,7 @@ a {
   align-items: center;
   flex-direction: column; }
   .about-text .about-header {
-    flex: 40%;
+    flex: 20%;
     justify-content: center; }
   .about-text .about-description {
     flex: 60%;
@@ -199,7 +203,7 @@ a {
   align-items: center;
   flex-direction: column; }
   .home-text .home-header {
-    flex: 40%;
+    flex: 20%;
     justify-content: center; }
   .home-text .home-description {
     flex: 60%; }
@@ -211,14 +215,15 @@ a {
   align-items: center;
   flex-direction: column; }
   .project-container .project-header {
-    flex: 10%;
+    flex: 5%;
     justify-content: flex-end;
     padding-bottom: 1em; }
   .project-container .project-cards {
-    flex: 60%;
+    width: 90%;
+    flex: 80%;
     flex-flow: row wrap;
     align-items: flex-start;
-    justify-content: space-around; }
+    justify-content: space-between; }
 
 .app-container {
   display: flex;
