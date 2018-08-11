@@ -64,8 +64,8 @@ h2 {
     width: 1px;
     height: 1px;
     position: absolute;
-    top: 1px 1658px;
-    left: 1px 1235px;
+    top: 1px 247px;
+    left: 1px 1252px;
     border-radius: 50%;
     background: transparent;
     box-shadow: 1px;
@@ -75,8 +75,8 @@ h2 {
     width: 2px;
     height: 2px;
     position: absolute;
-    top: 1px 125px;
-    left: 1px 306px;
+    top: 1px 1604px;
+    left: 1px 1044px;
     border-radius: 50%;
     background: transparent;
     box-shadow: 2px;
@@ -86,8 +86,8 @@ h2 {
     width: 3px;
     height: 3px;
     position: absolute;
-    top: 1px 1000px;
-    left: 1px 363px;
+    top: 1px 776px;
+    left: 1px 1293px;
     border-radius: 50%;
     background: transparent;
     box-shadow: 3px;
@@ -147,6 +147,8 @@ a {
       opacity: .7; }
       a .card:hover::after, a .card:focus::after {
         opacity: 1; }
+      a .card:hover:hover .hover-text, a .card:focus:hover .hover-text {
+        visibility: visible; }
     a .card .images-container {
       position: relative;
       top: 0;
@@ -169,10 +171,17 @@ a {
       a .card .images-container .logo3 {
         top: 5px;
         right: 48px; }
-    a .card .container {
+      a .card .images-container .hover-text {
+        position: absolute;
+        bottom: 35%;
+        left: 25%;
+        visibility: hidden;
+        background-color: #333c46;
+        padding: 2px; }
+    a .card .bottom-container {
       padding: 0 10px;
       font-size: 12px; }
-      a .card .container h2 {
+      a .card .bottom-container h2 {
         font-size: 15px;
         color: #92BBE8; }
 

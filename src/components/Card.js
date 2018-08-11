@@ -16,8 +16,10 @@ class Card extends React.Component {
             <img className='logo-image logo1' src={logo1} alt='Logo 1' height='20px' width='20px' />
             <img className='logo-image logo2' src={logo2} alt='Logo 2' height='20px' width='20px' />
             {this.checkLogo(logo3)}
+
+            <h2 className='hover-text'>Click To View Code</h2>
           </div>
-          <div className='container'>
+          <div className='bottom-container'>
             <h2>{title}</h2>
             <p>{description}</p>
           </div>

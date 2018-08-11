@@ -22,19 +22,23 @@ a {
       transition: opacity 2s cubic-bezier(.165, .84, .44, 1);
       box-shadow: 8px 4px 17px 0 $box-shadow-color, 7px 3px 20px 0 $box-shadow-color;
         border-radius: 7px;
-      content: '';
-      opacity: 0;
+        content: '';
+        opacity: 0;
       z-index: -1;
     }
-  
+    
     &:hover,
     &:focus {
       transform: scale3d(1.006, 1.006, 1);
       transition: opacity 2s;
       opacity: .7;
-  
+      
       &::after {
         opacity: 1;
+      }
+      
+      &:hover .hover-text {
+        visibility: visible;
       }
     }
   
@@ -70,9 +74,19 @@ a {
         right: 48px;
       }
     
+      .hover-text {
+        position: absolute;;
+        bottom:35%;
+        left: 25%;
+        visibility:hidden;
+        background-color: $nav-color;
+        padding: 2px;
+      }
+      
     }
+
   
-    .container {
+    .bottom-container {
       padding: 0 10px;
       font-size: 12px;
     
