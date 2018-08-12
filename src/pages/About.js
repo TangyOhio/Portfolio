@@ -9,7 +9,7 @@ const About = () => {
         <br />
         <p>I enjoy using React in the front and Ruby on Rails in the back. I'm learning SASS, which is what I built this site with.</p>
         <br />
-        <p>I've loved everything to do with computers since I was a kid. I enjoy video games, spending time with my family, and giant robot fights.</p>
+        <p>I love computers, and I've been playing with them ever since I was a kid. I enjoy video games, spending time with my family, and giant robot fights.</p>
       </div>
     </div>
   )
