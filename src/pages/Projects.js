@@ -39,7 +39,7 @@ const Projects = () => {
           logo2={SassLogo}
           title='My Portfolio'
           description='The beautiful site you are currently looking at'
-          link='https://github.com/TangyOhio/TangyOhio.github.io'
+          link='https://github.com/TangyOhio/TangyOhio.github.io/tree/dev'
         />
 
         <Card
