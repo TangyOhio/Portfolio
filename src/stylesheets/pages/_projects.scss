@@ -7,15 +7,15 @@
   
   .project-header {
     @extend .project-container;
-    flex: 5%;
-    justify-content: flex-end;
+    flex: 40%;
+    justify-content: center;
     padding-bottom: 1em;
   }
   
   .project-cards {
     @extend .project-container;
     width: 90%;
-    flex: 80%;
+    flex: 60%;
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: space-between;
