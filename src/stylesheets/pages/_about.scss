@@ -14,7 +14,8 @@
   .about-description {
     @extend .about-text;
     flex: 60%;
-    width: 62%;
+    width: 75%;
     text-align: left;
+    line-height: 2em;
   }
 }

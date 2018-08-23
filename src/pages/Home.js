@@ -5,9 +5,9 @@ const Home = () => {
     <div className='home-text'>
       <h1 className='home-header'>Hello</h1>
       <div className='home-description'>
-        <p>My name is Jace McGough.</p>
+        <p> My name is Jace McGough. </p>
         <br />
-        <p>I think Javascript is cool.</p>
+        <p> I like to code. </p>
       </div>
     </div>
   )
