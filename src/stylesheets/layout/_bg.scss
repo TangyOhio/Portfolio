@@ -10,16 +10,6 @@ $NUMSTARS: 2000;
   @return unquote($value);
 }
 
-@function star-delays($n) {
-  $value: "#{random(100)}s";
-
-  @for $i from 2 through $n {
-    $value: "#{random(100)}s";
-  }
-
-  @return unquote($value);
-}
-
 .star-bg{
   background-color: $page-color;
   z-index: 1;
@@ -33,7 +23,6 @@ $NUMSTARS: 2000;
     background: transparent;
     box-shadow: star-shadows($NUMSTARS);
     animation: fade 10s linear infinite;
-    // animation-delay: star-delays($NUMSTARS);
     opacity: 0;
   }
   

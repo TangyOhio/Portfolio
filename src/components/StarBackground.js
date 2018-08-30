@@ -6,7 +6,7 @@ class StarBackground extends React.Component {
     const { children } = this.props
     return (
       <div className='star-bg'>
-        {/* <span id='stars' /> */}
+        <span id='stars' />
         {children}
       </div>
     )
