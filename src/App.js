@@ -13,20 +13,19 @@ class App extends React.Component {
 
   render() {
     return (
-      <StarBackground>
-        <div className='app-container'>
-            <Navbar />
-            <div className='pages-container'>
-              <Social />
-              <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/about' component={About} />
-                <Route exact path='/projects' component={Projects} />
-                <Route component={NoMatch} />
-              </Switch>
-            </div>
-        </div>
-      </StarBackground>
+      <div className='app-container'>
+        <StarBackground />
+          <Navbar />
+          <div className='pages-container'>
+            <Social />
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/about' component={About} />
+              <Route exact path='/projects' component={Projects} />
+              <Route component={NoMatch} />
+            </Switch>
+          </div>
+      </div>
     )
   }
 }
